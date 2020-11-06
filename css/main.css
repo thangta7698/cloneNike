@@ -1,0 +1,662 @@
+.header {
+    height:30px;
+    width: 100%;
+    background-color: #f5f5f5;
+  
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.jodan_img {
+    margin: 0 20px 0 0;
+}
+.header_list {
+    margin:0;
+}
+.header_list-item {
+    list-style: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 0 10px;
+}
+a.list_item-link {
+  color: var(--black-color);
+  text-decoration: none!important;
+}
+.page_menu {
+    height: 60px;
+}
+.menu_list {
+    padding: 0;
+    margin: 0;
+}
+.menu_list-item {
+    display: inline-block;
+    margin: 0 10px;
+    list-style: none;
+}
+.menu_item-link {
+    text-decoration: none!important;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    font-weight: 400;
+}
+.search {
+    height: 40px;
+    padding: 8px 0;
+    background-color: rgba(245, 245, 245, 0.877);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+input {
+  outline: none;
+  border: none;
+  padding-left: 4px;
+  font-size: 1.8rem!important;
+  background-color: transparent;
+  font-weight: 300;
+  color:black;
+
+}
+
+.search:hover {
+    background-color:rgba(219, 210, 210, 0.521);
+}
+.button-search {
+    height: 40px;
+    width: 40px;
+    border-radius:50% ;
+    border-style: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none!important;
+    color: black;
+   
+}
+.button-search:hover {
+    background-color:rgba(219, 210, 210, 0.521) ;
+}
+.favourites, .bag-item {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none!important;
+   
+}
+.favourites:hover, .bag-item:hover {
+    background-color: #e6e2e2 ;
+}
+.favourites {
+    margin: 0 10px;
+}
+
+.policy {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+}
+.policy p {
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.4 rem;
+    font-weight: 400;
+}
+.type_shoes {
+    width: 100%;
+    height: 50px;
+}
+.type_shoes-text {
+    font-size: 1.6rem;
+    color: black;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 80px;
+    background-color:white;
+    right: 0px;
+    left: 0px;
+    padding: 0 100px;
+    
+    
+}
+.menrunning_shoes-amount {
+    font-size: 2.6rem;
+}
+.menrunning_shoes-amount--customize {
+    line-height: 80px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+.button_men-shoes {
+    display: flex;
+    align-items: center;
+   
+}
+
+.btn-bars {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    padding: 4px;
+    display: none;
+    border-radius: 50%;
+}
+.btn-bars:hover {
+    background-color:  #f5f5f5;
+}
+.bars-icon {
+    font-size: 2.8rem;
+    color: var(--black-color);
+}
+.btn_shoes-filter, .btn_sort {
+    border: none;
+    padding: 4px 4px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 8px;
+    
+}
+.btn_sort {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sort-angle-down {
+     font-size: 2.4rem;
+     margin-left: 6px;
+     
+}
+.product_infomation {
+    
+}
+
+.cart_item {
+    margin-bottom: 30px;
+    transform: scale(1);
+    transition: transform ease-in 0.2s;
+    cursor: pointer;
+}
+.cart_item:hover  {
+    transform: scale(1.01);
+}
+.item_img  {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transform: scale(1);
+    transition: scale ease 2s;
+}
+.cart_item:hover .product_description{
+    display: none;
+}
+.cart_item:hover .img_reference {
+    display: block;
+}
+
+.get_help a, .about_nike a {
+    font-size: 1.2rem;
+    color: #eee7e7;
+    display: block;
+    margin-bottom: 10px;
+}
+.get_help a:hover, .about_nike a:hover {
+    color: var(--white-color)!important;
+    cursor: pointer;
+}
+
+.product_description p {
+    margin-bottom: 4px;
+}
+.img_reference {
+    margin: 10px 0 10px 0;
+    display: none;
+}
+.img_small {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 0 2px;
+}
+
+
+.product_status {
+    font-size: 1.8rem;
+    color: #fa5400;
+}
+.product_name, .price {
+    font-size: 1.8rem;
+    color: #3d3d3d;
+}
+.product_kind, .amount_colours {
+    color:#bbbbbb;
+    font-size: 1.8rem;
+}
+
+.shoes_kind {
+    padding-bottom: 40px;
+   
+    border-bottom: 1px solid #e5e5e5;
+}
+.shoes_kind a {
+    display: block;
+    font-size: 1.8rem;
+    color:var(--black-color);
+    text-decoration: none!important;
+}
+
+.shoes_kind a:first-child {
+    text-decoration: underline!important;
+}
+.shoes_kind a:hover {
+    color: rgba(14, 13, 13, 0.8);
+}
+.gender {
+    padding: 10px 10px 10px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+.gender div label:hover {
+    cursor: pointer;
+    color:  rgba(14, 13, 13, 0.8);
+}
+.gender_text, .size_text {
+    color:#bbbbbb;
+    font-size: 1.8rem; 
+    position: relative;
+    cursor: pointer;
+    
+}
+.arrow_gender, .arrow_size {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    transform: rotate(0deg);
+    color: var(--black-color);
+    transition: transform ease 0.5s
+}
+.arrow-rotate {
+    transform: rotate(-180deg);
+}
+.label_gender {
+    font-size: 1.8rem;
+    color: var(--black-color);
+}
+.size {
+    padding: 10px 10px 0 0;
+    border-bottom: 1px solid #e5e5e5
+    ;
+}
+.size_number {
+    margin-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.size_detail {
+    height: 3.6rem;
+    width: 30%;
+    border-radius: 6px;
+    border-color:#9999;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3.6rem;
+    margin-bottom: 6px;
+    
+}
+.size_detail:hover {
+    cursor: pointer;
+    background-color: rgba(214, 212, 212, 0.8) ;
+}
+.footer {
+    width: 100%;
+    background-color: #111;
+
+}
+.cart_item:hover .product_description{
+    display: none;
+}
+.cart_item:hover .img_reference {
+    display: block;
+}
+.footer_container {
+    padding: 40px 40px;
+    border-bottom: 2px solid rgb(94, 90, 90);
+}
+.footer_right {
+    width: 40%;
+}
+.footer_link h4, .get_help h4, .about_nike h4 {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.get_help a, .about_nike a {
+    font-size: 1.2rem;
+    color: red;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer_container {
+    padding: 40px 40px;
+}
+.footer_right {
+    width: 40%;
+}
+.footer_link h4, .get_help h4, .about_nike h4 {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+/* tollbars responsive */
+.tollbars_responsive {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    display:none;
+    
+}
+.d_block {
+    display: block;
+    
+}
+.d_none {
+    display: none;
+}
+
+.menu_tollbars {
+    width: 300px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--white-color);
+     position: fixed;
+    padding: 40px 40px;
+    border-radius: 4px;
+    transform: translateX(100%);
+    z-index: 11;
+    transition: transform ease 0.5s;
+
+}
+.menu_tollbars-slide {
+   
+    transform: translateX(0%);
+}
+.menu-tollbars-list {
+    padding: 0;
+    list-style: none;
+}
+.menu_tollbars-item {
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.menu_tollbars-item-link {
+    font-size: 2.4rem;
+    color: #000000;
+    text-decoration: none!important;
+    font-weight: 400;
+}
+.arrow-dow {
+    position: absolute;
+    right: 0;
+    top: 14%;
+    font-size: 2rem;
+}
+.btn_tollbars-menu {
+    margin-top: 30px;
+}
+.btn-joinUs, .btn-signIn {
+    height: 40px;
+    width: 45%;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    margin: 0;
+}
+.btn-joinUs {
+    background-color: black;
+    color: var(--white-color);
+    line-height: 40px;
+}
+.btn-signIn {
+    color: black;
+    border: 1px solid #999999;
+    line-height: 38px;
+}
+
+/* animation */
+
+/* Responsive */
+@media (max-width: 575px) {
+    .header, .menu_list, .search input, .favourites, .policy {
+        display: none;
+    }
+    .page_menu, .type_shoes{
+        padding: 0 20px;
+    }
+    .search {
+        background-color: transparent;
+    }
+    .btn-bars {
+        display: block;
+    }
+    .menrunning_shoes-amount--customize {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0;
+        line-height: 1.8rem;
+    }
+
+    .menrunning_shoes-amount {
+        margin: 0;
+        font-size: 1.6rem;
+        flex-basis: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    }   
+    
+    .sticky {
+        font-size: 1.4rem;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .product_infomation {
+        display: none;
+    }
+    
+    .grid.wide {
+        width: 100%;
+    }
+    .cart_item {
+        padding-left: 4px!important;
+        padding-right: 4px!important;
+    }
+    .cart_product {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    
+
+@media (min-width: 576px) { 
+    
+    .header, .menu_list, .search input, .favourites, .policy {
+        display: none;
+    }
+    .page_menu, .type_shoes{
+        padding: 0 20px;
+    }
+    .search {
+        background-color: transparent;
+    }
+    .btn-bars {
+        display: block;
+    }
+    .product_infomation {
+        display: none;
+    }
+    .sticky {
+        padding: 0 20px;
+    }
+    
+    .grid.wide {
+        width: 100%;
+    }
+    .cart_item {
+        padding-left: 4px!important;
+        padding-right: 4px!important;
+    }
+    .cart_product {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    
+ }
+
+
+@media (min-width: 768px) {
+    .grid.wide {
+        width: 100%;
+    }
+     
+    .header, .menu_list, .search input, .favourites, .policy {
+        display: none;
+    }
+    .page_menu, .type_shoes{
+        padding: 0 20px;
+    }
+    .search {
+        background-color: transparent;
+    }
+    .btn-bars {
+        display: block;
+    }
+    
+    .product_infomation {
+        display: none;
+    }
+   
+
+    .cart_item {
+        padding-left: 8px!important;
+        padding-right: 8px!important;
+    }
+    .cart_product {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+ }
+ 
+
+ 
+@media (min-width: 992px) { 
+     
+    .header, .menu_list, .search input, .favourites, .policy {
+        display: none;
+    }
+    .page_menu, .type_shoes{
+        padding: 0 20px;
+    }
+    .search {
+        background-color: transparent;
+    }
+    .btn-bars {
+        display: block;
+    }
+    .product_infomation {
+        display: block;
+    }
+    .grid.wide {
+        width: 100%;
+    }
+    .cart_item {
+        padding-left: 8px!important;
+        padding-right: 8px!important;
+    }
+    .cart_product {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    
+ }
+ 
+
+@media (min-width: 1200px) {
+    
+    .tollbars_responsive, .menu_tollbars {
+        display: none;
+    }
+    .grid.wide {
+        width: 90%;
+    }
+    .header, .menu_list, .search input, .policy  {
+        display: block;
+    }
+    .favourites {
+        display: flex;
+    }
+    .btn-bars {
+        display: none;
+    }
+    .search {
+        background-color:  rgba(245, 245, 245, 0.877);
+    }
+    .page_menu, .type_shoes{
+        padding: 0;
+    }
+    .product_infomation {
+        display: block;
+    }
+    .cart_item {
+        padding-left: 12px!important;
+        padding-right: 12px!important;
+    }
+    .cart_product {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+  }
+
+
+
+
+
+
+
+
